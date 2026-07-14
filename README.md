@@ -1,18 +1,19 @@
-# Artificial-Neural-Network-ANN-for-Digit-Classification
-
 # Handwritten Digit Classification using Artificial Neural Network (ANN)
 
-## Project Overview
+ Project Overview
+ 
 This project implements an Artificial Neural Network (ANN) to classify handwritten digits using the MNIST dataset. The model is built using TensorFlow and Keras. It is trained on the MNIST dataset and evaluated using accuracy and loss metrics.
 
-## Objective
+Objective
+
 - Build an Artificial Neural Network (ANN) for digit classification.
 - Train the model on the MNIST dataset.
 - Evaluate the model using accuracy and loss.
 - Predict handwritten digits from the test dataset.
 
-## Dataset
-**Dataset Name:** MNIST
+ Dataset
+ 
+Dataset Name: MNIST
 
 - Total Images: 70,000
 - Training Images: 60,000
@@ -23,14 +24,14 @@ This project implements an Artificial Neural Network (ANN) to classify handwritt
 Dataset Link:
 https://keras.io/api/datasets/mnist/
 
-## Technologies Used
+ Technologies Used
 - Python
 - TensorFlow
 - Keras
 - NumPy
 - Matplotlib
 
-## Model Architecture
+Model Architecture
 
 Input (28 × 28)
 
@@ -50,7 +51,7 @@ Dense (64, ReLU)
 
 Dense (10, Softmax)
 
-## Training Details
+ Training Details
 
 - Optimizer: Adam
 - Loss Function: Sparse Categorical Crossentropy
@@ -59,7 +60,7 @@ Dense (10, Softmax)
 - Epochs: 10
 - Validation Split: 20%
 
-## Evaluation Metrics
+ Evaluation Metrics
 
 - Training Accuracy
 - Validation Accuracy
@@ -67,11 +68,11 @@ Dense (10, Softmax)
 - Training Loss
 - Validation Loss
 
-## Results
+ Results
 
 The ANN model successfully classified handwritten digits with high accuracy. The training and validation accuracy improved over epochs, while the loss decreased, indicating effective learning.
 
-## Project Structure
+Project Structure
 
 ```
 Assignment_1_ANN/
@@ -87,7 +88,7 @@ Assignment_1_ANN/
     └── predictions.png
 ```
 
-## How to Run
+ How to Run
 
 1. Open the Jupyter Notebook or Kaggle Notebook.
 2. Install the required libraries:
